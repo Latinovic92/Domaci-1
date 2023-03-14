@@ -8,7 +8,7 @@
 {
     background-color: #ddd;
     width: 80%;
-    height: 100vh;
+    height: 95vh;
     margin: 0 auto;
 }
 .imgContainer 
@@ -52,7 +52,13 @@ img
     font-size: 30px;
     padding-left: 20px;
 }
-
+footer 
+{
+    margin: 0 auto;
+    width: 80%;
+    height: 5vh; 
+    background-color: #ddd;
+}
 footer p
 {
     text-align: center;
