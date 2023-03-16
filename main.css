@@ -38,9 +38,11 @@ img
 .name
 {
     color: tomato;
+    text-decoration: underline;
 }
 .job-title
-{
+{   
+    color: goldenrod;
     padding: 10px 20px;
 }
 .description
