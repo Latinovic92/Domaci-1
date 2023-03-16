@@ -1,2 +1,2 @@
-# Domaci 1
- Basic html practise
+# Vezbanje - HTML/CSS
+ Practise html/css
