@@ -1,16 +1,28 @@
 *
 {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
+body
+{
+    background-color: bisque;
+}
 .container
 {
     background-color: #ddd;
     width: 80%;
-    height: 95vh;
+    /* height: 100vh; */
     margin: 0 auto;
 }
+
+header
+{
+    display: block;
+    text-align: right;
+    padding: 20px;
+}
+
 .imgContainer 
 {
    display: flex;
@@ -25,7 +37,7 @@ img
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50%;
-    box-shadow: 0 0 20px 0;
+    box-shadow: 0 0 20px rgb(225, 45, 45);
 }
 .title 
 {
@@ -44,10 +56,13 @@ img
 {   
     color: goldenrod;
     padding: 10px 20px;
+    font-family: Arial;
 }
 .description
 {
     padding: 10px 20px;
+    line-height: 35px;
+    word-spacing: 5px;
 }
 .fa-brands
 {
@@ -66,13 +81,7 @@ img
 {
     color: rgb(226, 43, 64);
 }
-footer 
-{
-    margin: 0 auto;
-    width: 80%;
-    height: 5vh; 
-    background-color: #ddd;
-}
+
 footer p
 {
     text-align: center;
