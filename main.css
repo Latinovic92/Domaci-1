@@ -50,7 +50,19 @@ img
 .fa-brands
 {
     font-size: 30px;
-    padding-left: 20px;
+    margin-left: 20px;
+}
+.fa-facebook
+{
+    color: blue;
+}
+.fa-youtube
+{
+    color: red;
+}
+.fa-instagram
+{
+    color: rgb(226, 43, 64);
 }
 footer 
 {
