@@ -1,88 +1,86 @@
-*
-{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-body
-{
-    background-color: bisque;
-}
-.container
-{
-    background-color: #ddd;
-    width: 80%;
-    /* height: 100vh; */
-    margin: 0 auto;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-header
-{
-    display: block;
-    text-align: right;
-    padding: 20px;
+body {
+	background-color: bisque;
+	font-family: "Courier New";
 }
 
-.imgContainer 
-{
-   display: flex;
-   justify-content: center;
+.container {
+	background-color: #ddd;
+	width: 80%;
+	/* height: 100vh; */
+	margin: 0 auto;
 }
 
-img 
-{
-    margin-top: 20px;
-    width: 400px;
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    box-shadow: 0 0 20px rgb(225, 45, 45);
+header {
+	display: flex;
+	justify-content: space-between;
+	text-align: right;
+	padding: 20px;
 }
-.title 
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Courier New";
-    margin-top: 20px;
+.navbar a {
+	padding-right: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	color: tomato;
+	font-weight: bold;
 }
-.name
-{
-    color: tomato;
-    text-decoration: underline;
+.navbarIcons a {
+	text-decoration: none;
 }
-.job-title
-{   
-    color: goldenrod;
-    padding: 10px 20px;
-    font-family: Arial;
-}
-.description
-{
-    padding: 10px 20px;
-    line-height: 35px;
-    word-spacing: 5px;
-}
-.fa-brands
-{
-    font-size: 30px;
-    margin-left: 20px;
-}
-.fa-facebook
-{
-    color: blue;
-}
-.fa-youtube
-{
-    color: red;
-}
-.fa-instagram
-{
-    color: rgb(226, 43, 64);
+.imgContainer {
+	display: flex;
+	justify-content: center;
 }
 
-footer p
-{
-    text-align: center;
+img {
+	margin-top: 20px;
+	width: 400px;
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	box-shadow: 0 0 20px rgb(225, 45, 45);
+}
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Courier New";
+	margin-top: 20px;
+}
+.name {
+	color: tomato;
+	text-decoration: underline;
+}
+.job-title {
+	color: goldenrod;
+	padding: 10px 20px;
+	font-family: Arial;
+}
+.description {
+	padding: 10px 20px;
+	line-height: 35px;
+	word-spacing: 5px;
+}
+.fa-brands {
+	font-size: 30px;
+	margin-left: 20px;
+}
+.fa-facebook {
+	color: blue;
+}
+.fa-youtube {
+	color: red;
+}
+.fa-instagram {
+	color: rgb(226, 43, 64);
+}
+
+footer p {
+	text-align: center;
 }
