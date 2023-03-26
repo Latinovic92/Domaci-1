@@ -29,10 +29,17 @@ header {
 	color: tomato;
 	font-weight: bold;
 }
+.navbar a:hover {
+	background-color: #fff;
+	border-radius: 5px;
+	transition: ease 0.5s;
+	padding: 10px;
+}
 .navbarIcons a {
 	text-decoration: none;
 }
 .imgContainer {
+	margin-top: 20px;
 	display: flex;
 	justify-content: center;
 }
@@ -123,6 +130,12 @@ p {
 	font-size: 30px;
 	margin-left: 20px;
 }
+.fa-brands:hover {
+	background-color: #fff;
+	border-radius: 50%;
+	transition: ease 0.5s;
+	transform: scale(1.5);
+}
 .fa-facebook {
 	color: blue;
 }
@@ -131,6 +144,12 @@ p {
 }
 .fa-instagram {
 	color: rgb(226, 43, 64);
+}
+
+.list {
+	margin-left: 20px;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 footer p {
